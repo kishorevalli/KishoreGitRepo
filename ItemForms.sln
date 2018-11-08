@@ -1,0 +1,126 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Business", "Business", "{C06B8927-9CC0-4C10-BAAC-FA66A94FF352}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{7E305124-ED3E-4F7A-8555-B9DEDAF8387F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ItemFormsBO", "Business\ItemFormsBO\ItemFormsBO.csproj", "{94156474-D652-45CA-9DD9-3C1692495590}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ItemFormsDac", "Data\ItemFormsDac\ItemFormsDac.csproj", "{68D217BA-8EB3-4A2E-B522-0AA3284DCF22}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UX", "UX", "{8566A753-FDA6-46F6-8E5F-74B0D2DABE07}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ItemFormsEntities", "Business\ItemFormsEntities\ItemFormsEntities.csproj", "{724BEEF3-4878-46D4-AC9B-0E6F586C09E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ItemFormsCommon", "Business\ItemFormsCommon\ItemFormsCommon.csproj", "{EB5E1473-A604-4414-A096-5271000921E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Service", "Service", "{5D630933-71F9-4BD3-A6E8-5D7D244595FC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Batch", "Batch", "{ABAA4B1C-0BEE-4896-9B2A-8CCECDD46D85}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ItemFormAutoPurge", "Service\Batch\ItemFormAutoPurge\ItemFormAutoPurge.csproj", "{9B55E94C-6EA8-49E7-92C0-85E261F2187B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ItemFormsWeb", "UX\ItemFormsWeb\ItemFormsWeb.csproj", "{AF74F96D-9663-4385-9852-B6068C7EFD3F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LithiumBatterySurveyNotification", "Service\Batch\LithiumBatterySurveyNotification\LithiumBatterySurveyNotification.csproj", "{95B90F1A-84D9-4AD8-8842-3112FAC81C3B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ExternalService", "ExternalService", "{FEC9EB48-9EBB-4758-98B7-3F79144023D7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ItemFormsExternalService", "Service\ExternalService\ItemFormsExternalService\ItemFormsExternalService.csproj", "{7E4F2DB8-4078-4E95-97B7-F88C61E9ECE4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{94156474-D652-45CA-9DD9-3C1692495590}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94156474-D652-45CA-9DD9-3C1692495590}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94156474-D652-45CA-9DD9-3C1692495590}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94156474-D652-45CA-9DD9-3C1692495590}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68D217BA-8EB3-4A2E-B522-0AA3284DCF22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68D217BA-8EB3-4A2E-B522-0AA3284DCF22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68D217BA-8EB3-4A2E-B522-0AA3284DCF22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68D217BA-8EB3-4A2E-B522-0AA3284DCF22}.Release|Any CPU.Build.0 = Release|Any CPU
+		{724BEEF3-4878-46D4-AC9B-0E6F586C09E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{724BEEF3-4878-46D4-AC9B-0E6F586C09E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{724BEEF3-4878-46D4-AC9B-0E6F586C09E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{724BEEF3-4878-46D4-AC9B-0E6F586C09E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB5E1473-A604-4414-A096-5271000921E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB5E1473-A604-4414-A096-5271000921E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB5E1473-A604-4414-A096-5271000921E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB5E1473-A604-4414-A096-5271000921E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B55E94C-6EA8-49E7-92C0-85E261F2187B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B55E94C-6EA8-49E7-92C0-85E261F2187B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B55E94C-6EA8-49E7-92C0-85E261F2187B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B55E94C-6EA8-49E7-92C0-85E261F2187B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF74F96D-9663-4385-9852-B6068C7EFD3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF74F96D-9663-4385-9852-B6068C7EFD3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF74F96D-9663-4385-9852-B6068C7EFD3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF74F96D-9663-4385-9852-B6068C7EFD3F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95B90F1A-84D9-4AD8-8842-3112FAC81C3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95B90F1A-84D9-4AD8-8842-3112FAC81C3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95B90F1A-84D9-4AD8-8842-3112FAC81C3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95B90F1A-84D9-4AD8-8842-3112FAC81C3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E4F2DB8-4078-4E95-97B7-F88C61E9ECE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E4F2DB8-4078-4E95-97B7-F88C61E9ECE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E4F2DB8-4078-4E95-97B7-F88C61E9ECE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E4F2DB8-4078-4E95-97B7-F88C61E9ECE4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{94156474-D652-45CA-9DD9-3C1692495590} = {C06B8927-9CC0-4C10-BAAC-FA66A94FF352}
+		{68D217BA-8EB3-4A2E-B522-0AA3284DCF22} = {7E305124-ED3E-4F7A-8555-B9DEDAF8387F}
+		{724BEEF3-4878-46D4-AC9B-0E6F586C09E8} = {C06B8927-9CC0-4C10-BAAC-FA66A94FF352}
+		{EB5E1473-A604-4414-A096-5271000921E8} = {C06B8927-9CC0-4C10-BAAC-FA66A94FF352}
+		{ABAA4B1C-0BEE-4896-9B2A-8CCECDD46D85} = {5D630933-71F9-4BD3-A6E8-5D7D244595FC}
+		{9B55E94C-6EA8-49E7-92C0-85E261F2187B} = {ABAA4B1C-0BEE-4896-9B2A-8CCECDD46D85}
+		{AF74F96D-9663-4385-9852-B6068C7EFD3F} = {8566A753-FDA6-46F6-8E5F-74B0D2DABE07}
+		{95B90F1A-84D9-4AD8-8842-3112FAC81C3B} = {ABAA4B1C-0BEE-4896-9B2A-8CCECDD46D85}
+		{FEC9EB48-9EBB-4758-98B7-3F79144023D7} = {5D630933-71F9-4BD3-A6E8-5D7D244595FC}
+		{7E4F2DB8-4078-4E95-97B7-F88C61E9ECE4} = {FEC9EB48-9EBB-4758-98B7-3F79144023D7}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 9
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://tfss.publix.com:444/tfs/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Business\\ItemFormsBO\\ItemFormsBO.csproj
+		SccProjectTopLevelParentUniqueName1 = ItemForms.sln
+		SccProjectName1 = Business/ItemFormsBO
+		SccLocalPath1 = Business\\ItemFormsBO
+		SccProjectUniqueName2 = Data\\ItemFormsDac\\ItemFormsDac.csproj
+		SccProjectTopLevelParentUniqueName2 = ItemForms.sln
+		SccProjectName2 = Data/ItemFormsDac
+		SccLocalPath2 = Data\\ItemFormsDac
+		SccProjectUniqueName3 = Business\\ItemFormsEntities\\ItemFormsEntities.csproj
+		SccProjectTopLevelParentUniqueName3 = ItemForms.sln
+		SccProjectName3 = Business/ItemFormsEntities
+		SccLocalPath3 = Business\\ItemFormsEntities
+		SccProjectUniqueName4 = Business\\ItemFormsCommon\\ItemFormsCommon.csproj
+		SccProjectTopLevelParentUniqueName4 = ItemForms.sln
+		SccProjectName4 = Business/ItemFormsCommon
+		SccLocalPath4 = Business\\ItemFormsCommon
+		SccProjectUniqueName5 = Service\\Batch\\ItemFormAutoPurge\\ItemFormAutoPurge.csproj
+		SccProjectTopLevelParentUniqueName5 = ItemForms.sln
+		SccProjectName5 = Service/Batch/ItemFormAutoPurge
+		SccLocalPath5 = Service\\Batch\\ItemFormAutoPurge
+		SccProjectUniqueName6 = UX\\ItemFormsWeb\\ItemFormsWeb.csproj
+		SccProjectTopLevelParentUniqueName6 = ItemForms.sln
+		SccProjectName6 = UX/ItemFormsWeb
+		SccLocalPath6 = UX\\ItemFormsWeb
+		SccProjectUniqueName7 = Service\\Batch\\LithiumBatterySurveyNotification\\LithiumBatterySurveyNotification.csproj
+		SccProjectTopLevelParentUniqueName7 = ItemForms.sln
+		SccProjectName7 = Service/Batch/LithiumBatterySurveyNotification
+		SccLocalPath7 = Service\\Batch\\LithiumBatterySurveyNotification
+		SccProjectUniqueName8 = Service\\ExternalService\\ItemFormsExternalService\\ItemFormsExternalService.csproj
+		SccProjectTopLevelParentUniqueName8 = ItemForms.sln
+		SccProjectName8 = Service/ExternalService/ItemFormsExternalService
+		SccLocalPath8 = Service\\ExternalService\\ItemFormsExternalService
+	EndGlobalSection
+EndGlobal
